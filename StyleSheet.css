@@ -1,0 +1,351 @@
+﻿
+        body {
+            background-color: rgb(40, 40, 40);
+            height: 1200px;
+        }
+
+        .container {
+            width: 96%;
+            margin: 2%;
+            height: auto;
+            background-color: white;
+        }
+
+        .header {
+            width: 100%;
+            height: 70px;
+            background-color: white;
+        }
+
+        .nav {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(48, 48, 48);
+        }
+
+        .content {
+            width: 100%;
+            height: 1200px;
+            background-image: url('images/login.jpg');
+        }
+
+        .home {
+            width: 80%;
+            height: 1200px;
+            margin-left: 10%;
+            background-color: white;
+            border-left: 1px solid white;
+        }
+
+        .footer {
+            width: 100%;
+            height: 70px;
+            background-color: rgb(73, 73, 73);
+            text-align:center;
+        }
+
+        .logo1 {
+            float: left;
+            margin-left: 3%;
+            width: 5%;
+            height: 70px;
+        }
+
+        .logo2 {
+            float: right;
+            margin-right: 3%;
+            width: 60%;
+            height: 55px;
+            padding-top: 10px;
+            
+        }
+
+        .navgator {
+            list-style-type: none;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 10%;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .navgator li {
+                float: right;
+                border-left: 1px solid white;
+            }
+
+                .navgator li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 12px 40px;
+                    text-decoration: none;
+                    font-family: 'Arabic Typesetting';
+                    font-size: x-large;
+                    font-weight: 500;
+                }
+
+                    .navgator li a:hover {
+                        background-color: #111;
+                    }
+
+        .homeLeft {
+            width: 72%;
+            height: 98%;
+            float: left;
+            padding-top: 2%;
+            text-align: right;
+            background-color: white;
+        }
+
+        .homeRight {
+            width: 24%;
+            height: 98%;
+            float: right;
+            padding-top: 2%;
+            padding-left: 2%;
+            padding-right: 2%;
+            text-align: right;
+            background-color: white;
+        }
+
+        .right1 {
+            width: 100%;
+            height: auto;
+            border: 1px solid gray;
+            background-color: white;
+        }
+
+        .logoText {
+            font-family: 'Arabic Typesetting';
+            font-size: x-large;
+            color: red;
+            float: right;
+            margin-right: 2px;
+        }
+
+        .right1Text {
+            margin-right: 5px;
+            font-family: 'Arabic Typesetting';
+            font-size: x-large;
+        }
+
+        .right2 {
+            margin-top: 60%;
+            padding-top: 2%;
+            padding-left: 2%;
+            padding-right: 2%;
+            border: 1px solid gray;
+            width: 96%;
+            height: auto;
+        }
+
+        .left1 {
+            width: 100%;
+            height: auto;
+            margin-top: 5%;
+        }
+
+        .left2 {
+            width: 100%;
+            height: auto;
+            margin-top: 5%;
+            text-align: center;
+        }
+
+        .left3 {
+            width: 100%;
+            height: auto;
+            margin-top: 3%;
+        }
+
+        .left4 {
+            width: 100%;
+            height: 300px;
+            margin-top: 3%;
+        }
+
+        .left5 {
+            width: 100%;
+            height: auto;
+            margin-top: 5%;
+            float: right;
+        }
+
+            .left5 a:link, a:visited {
+                background-color: #f44336;
+                color: white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+
+            .left5 a:hover  {
+                background-color: green;
+            }
+
+        .left2Text {
+            font-family: 'Arabic Typesetting';
+            font-size: x-large;
+        }
+
+        .left4Text {
+            font-family: 'Arabic Typesetting';
+            font-size: x-large;
+            vertical-align: top;
+            margin-left: 2px;
+        }
+
+        .left4Img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .left1Text {
+            font-family: 'Arabic Typesetting';
+            font-size: xx-large;
+        }
+        .listmarign{
+            margin-top:50px;
+        }
+        .footerlist{
+            margin-right:10%;
+
+        }
+        a.one:link {
+            color: white;
+            margin-right: 5%;
+            font-family: 'Arabic Typesetting';
+            font-size: x-large;
+            text-decoration: none;
+        }
+
+        a.one:visited {
+            color: black;
+            margin-right: 5%;
+            font-family: 'Arabic Typesetting';
+            font-size:x-large ;
+            text-decoration: none;
+        }
+
+        a.one:hover {
+            color: white;
+            margin-right: 5%;
+            text-decoration: none;
+            font-family: 'Arabic Typesetting';
+            font-weight:bold;
+        }
+        
+       
+        @media only screen and (max-width: 780px) {
+            .logo1 {
+                float: left;
+                margin-left: 3%;
+                width: auto;
+                height: 70px;
+            }
+            .logo2 {
+                float: right;
+                margin-right: 3%;
+                width: auto;
+                height: 60px;
+                padding-top: 10px;
+            }
+
+            .logoText {
+                font-family: 'Arabic Typesetting';
+                font-size: small;
+                color: red;
+                float: right;
+                margin-right: 2px;
+            }
+
+            .right1Text {
+                margin-right: 5px;
+                font-family: 'Arabic Typesetting';
+                font-size: medium;
+            }
+
+            .left4Text {
+                font-family: 'Arabic Typesetting';
+                font-size:small;
+                vertical-align: top;
+                margin-left: 2px;
+            }
+
+            .left4Img {
+                width: 10px;
+                height: 10px;
+            }
+
+            .left1Text {
+                font-family: 'Arabic Typesetting';
+                font-size: large;
+            }
+            .left2Text {
+                font-family: 'Arabic Typesetting';
+                font-size: small;
+            }
+            .navgator li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 12px 20px;
+                text-decoration: none;
+                font-family: 'Arabic Typesetting';
+                font-size: small;
+                
+            }
+            .home {
+                width: 90%;
+                height: 800px;
+                margin-left: 5%;
+                background-color: white;
+                border-left: 1px solid white;
+            }
+            .content {
+                width: 100%;
+                height: 800px;
+                background-image: url('images/login.jpg');
+            }
+            body {
+                background-color: rgb(40, 40, 40);
+                height: 800px;
+            }
+            .listmarign {
+                margin-top: 20px;
+            }
+            .left5 a:link, a:visited {
+                background-color: #f44336;
+                color: white;
+                padding: 9px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+
+            .left5 a:hover, a:active {
+                background-color: red;
+            }
+            a.one:link {
+                color: white;
+                margin-right: 5%;
+                font-family: 'Arabic Typesetting';
+                font-size: medium;
+                text-decoration: none;
+            }
+
+            a.one:visited {
+                color: black;
+                margin-right: 5%;
+                font-family: 'Arabic Typesetting';
+                font-size: medium;
+                text-decoration: none;
+            }
+
+                        
+        }

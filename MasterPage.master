@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <%--<meta name="viewport" content="width=device-width, initial-scale=1">--%>
+    <title>try</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!--container-->
+    <div class="container">
+
+        <!--header-->
+        <div class="header">
+            <div class="logo1">
+                <img src="images/logo.png" width="100%" height="100%" />
+            </div>
+            <div class="logo2">
+                <img src="images/caption.png" style="float:right; height:100%;width:auto" />
+                
+                
+            </div>
+        </div>
+
+        <!--nav-->
+        <div class="nav">
+            <ul class="navgator">
+                <li style="float: right; border-right: 1px solid white;" ><a href="Home.aspx">الرئيسية</a></li>
+                <li><a href="about.aspx">حول المسابقة</a></li>
+                <li><a href="query.aspx">المشاركون فى المسابقة</a></li>
+                <li><a href="prize.aspx">الجائزة</a></li>
+            </ul>
+        </div>
+
+        <!--content-->
+        <div class="content">
+
+            <!--home-->
+            <div class="home">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </div>
+            <!--footer-->
+        <div class="footer">
+           <br />
+            
+            <a href="admin/Default.aspx" class="one">دخول المشتركين</a>
+            <a href="about.aspx" class="one">حول المسابقة</a>
+            <a href="students.aspx" class="one"> أداء الطلاب</a>
+            <a href="https://www.facebook.com/جمعية-تنمية-المجتمع-بكفر-دمنهور-القديم-199309080108548/" target="_blank" class="one">تابعنا عبر الفيس بوك</a>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
